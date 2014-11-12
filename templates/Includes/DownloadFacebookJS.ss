@@ -4,9 +4,9 @@
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
   <% if FacebookApplicationID %>
-  js.src = "http://connect.facebook.net/en_US/all.js#xfbml=1&appId=$FacebookApplicationID;";
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=$FacebookApplicationID;";
   <% else %>
-  js.src = "http://connect.facebook.net/en_US/all.js#xfbml=1;";
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1;";
 
   <% end_if %>
   fjs.parentNode.insertBefore(js, fjs);
