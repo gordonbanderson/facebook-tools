@@ -11,10 +11,10 @@ class FacebookLikeBoxPage extends Page {
 
 
   function getCMSFields() {
-	$fields = parent::getCMSFields();
+    $fields = parent::getCMSFields();
 
-	$fields->addFieldToTab( 'Root.Facebook', new TextField('FacebookURL'));
-	$fields->addFieldToTab( 'Root.Facebook', new NumericField('PageWidth', 'Width of stream in pixels'));
+    $fields->addFieldToTab( 'Root.Facebook', new TextField('FacebookURL'));
+    $fields->addFieldToTab( 'Root.Facebook', new NumericField('PageWidth', 'Width of stream in pixels'));
 
     return $fields;
   }
@@ -24,5 +24,3 @@ class FacebookLikeBoxPage extends Page {
 class FacebookLikeBoxPage_Controller extends Page_Controller {
 
 }
-
-?>
