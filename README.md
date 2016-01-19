@@ -21,9 +21,7 @@
 * Add facebook metadata to any page
 
 ## Installation
-    git clone git://github.com/gordonbanderson/weboftalent-facebook.git
-    cd weboftalent-facebook
-    git checkout stable24
+    composer require "weboftalent/facebook-tools:~1"
 
 The name of the output directory does not matter
 
@@ -59,3 +57,4 @@ Create a page of type 'Facebook Like Box Page'.  In the Facebook tab, enter the 
 
 ## Silverstripe Version Compatibility
 2.4 only (tested with 2.4.5+) - stable24 branch
+3.1
