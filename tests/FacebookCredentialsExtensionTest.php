@@ -1,8 +1,9 @@
 <?php
 
-class FacebookCredentialsExtensionTest extends SapphireTest {
-	public function testFacebookApplicationID() {
-		$this->markTestSkipped('TODO');
-	}
-
+class FacebookCredentialsExtensionTest extends SapphireTest
+{
+    public function testFacebookApplicationID()
+    {
+        $this->markTestSkipped('TODO');
+    }
 }
